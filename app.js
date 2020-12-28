@@ -10,7 +10,7 @@ const config = require('./config/database');
 const cors = require('cors');
 
 
-//db config haha
+//db config 
 require('./config/database');
 
 // mongoose.connect(config.database);

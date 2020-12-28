@@ -4,7 +4,8 @@
   "description": "A simple voting app\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[CA",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "serve": "node app"
   },
   "author": "Ekwere Ime",
   "license": "ISC",
