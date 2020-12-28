@@ -116,10 +116,12 @@ app.use('/voters', voters);
 app.use('/admins', admins);
 app.use('/poll', poll);
 //start Server
-const port = 4040;
+var port = process.env.PORT || 4040;
 
 // Start server
-app.listen(port, () => console.log(`Server started on port ${port}`));
+app.listen(port, function(){
+  console.log('app is running on http://localhost:' + port)
+});
 
 
 // app.listen(3000, function(){
